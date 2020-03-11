@@ -42,7 +42,7 @@ nav a {
   /* scroll-snap-type: y mandatory; */
 
   /* SLOWER and FASTER exercise */
-  perspective: 2px;
+  perspective: 100vh;
 }
 
 .the_container section {
@@ -82,35 +82,39 @@ nav a {
   animation: hovering 1s;
 } */
 
+/* scaleFactor = (perspective — distance) / perspective */
 #i1 {
-  transform: translateZ(-1px) translateX(-50px) translateY(100px) scale(1.5);
+  transform: translateZ(-50vh) translateX(0vw) translateY(14vh) scale(1.5);
 }
 #b1 {
-  transform: translateZ(1px) translateX(350px) translateY(150px) scale(0.5);
+  transform: translateZ(50vh) translateX(24vw) translateY(22vh) scale(0.5);
   background-color: red;
 }
 #section_1 {
   background-color: #88ff00;
   text-align: right;
 }
+#section_1 h1 {
+  font-family: "Playfair Display", serif;
+}
 
 #i2_1 {
   border-radius: 25px;
-  transform: translateZ(-1px) translateX(1500px) translateY(60px) scale(1.5);
+  transform: translateZ(-50vh) translateX(96vw) translateY(9vh) scale(1.5);
 }
 #b2_1 {
   border-radius: 25px;
-  transform: translateZ(1px) translateX(720px) translateY(120px) scale(0.5);
-  background-color: yellow;
+  transform: translateZ(50vh) translateX(59.5vw) translateY(17vh) scale(0.5);
+  background-color: yellowgreen;
 }
 #i2_2 {
   border-radius: 25px;
-  transform: translateZ(-1px) translateX(1000px) translateY(60px) scale(1.5);
+  transform: translateZ(-50vh) translateX(63vw) translateY(9vh) scale(1.5);
 }
 #b2_2 {
   border-radius: 25px;
-  transform: translateZ(1px) translateX(920px) translateY(120px) scale(0.5);
-  background-color: yellowgreen;
+  transform: translateZ(50vh) translateX(46.5vw) translateY(17vh) scale(0.5);
+  background-color: yellow;
 }
 #section_2 {
   background-color: #00ff88;
