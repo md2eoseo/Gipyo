@@ -64,8 +64,20 @@ nav {
   width: 40vh;
 }
 
+@keyframes hovering {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
 #i1 {
   transform: translateZ(-1px) translateX(-50px) translateY(100px) scale(1.5);
+}
+img:hover {
+  animation: hovering 1s;
 }
 #b1 {
   transform: translateZ(1px) translateX(350px) translateY(150px) scale(0.5);
