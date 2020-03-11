@@ -21,6 +21,10 @@ nav {
   background-color: #fff;
 }
 
+nav a {
+  margin: 0 1.5vw;
+}
+
 #scrollinfo {
   position: fixed;
   width: calc(var(--scroll-ratio) * 100%);
@@ -49,22 +53,23 @@ nav {
 }
 
 .the_container section h1 {
-  font: 320px Arial;
+  font: 20vw Arial;
 }
 
 .box {
   position: absolute;
-  width: 40vh;
-  height: 60vh;
+  width: 20vw;
+  height: 30vw;
   background-color: #fff;
 }
 
 .img {
   position: absolute;
-  width: 40vh;
+  width: 20vw;
+  height: 30vw;
 }
 
-@keyframes hovering {
+/* @keyframes hovering {
   from {
     transform: scale(1);
   }
@@ -73,11 +78,12 @@ nav {
   }
 }
 
+.img:hover {
+  animation: hovering 1s;
+} */
+
 #i1 {
   transform: translateZ(-1px) translateX(-50px) translateY(100px) scale(1.5);
-}
-img:hover {
-  animation: hovering 1s;
 }
 #b1 {
   transform: translateZ(1px) translateX(350px) translateY(150px) scale(0.5);
@@ -94,7 +100,7 @@ img:hover {
 }
 #b2_1 {
   border-radius: 25px;
-  transform: translateZ(1px) translateX(730px) translateY(120px) scale(0.5);
+  transform: translateZ(1px) translateX(720px) translateY(120px) scale(0.5);
   background-color: yellow;
 }
 #i2_2 {
@@ -103,14 +109,16 @@ img:hover {
 }
 #b2_2 {
   border-radius: 25px;
-  transform: translateZ(1px) translateX(930px) translateY(120px) scale(0.5);
+  transform: translateZ(1px) translateX(920px) translateY(120px) scale(0.5);
   background-color: yellowgreen;
 }
 #section_2 {
   background-color: #00ff88;
 }
 #section_2 h1 {
-  margin-top: 250px;
+  margin-top: 50vh;
+  margin-left: 10vh;
+  font-family: "Black Han Sans", sans-serif;
 }
 
 #section_3 {
