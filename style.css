@@ -24,6 +24,7 @@ nav {
 #scrollinfo {
   position: fixed;
   width: calc(var(--scroll-ratio) * 100%);
+  height: var(--infobox-height);
   top: var(--nav-height);
   background-color: red;
 }
