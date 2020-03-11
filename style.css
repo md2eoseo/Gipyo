@@ -52,24 +52,26 @@ nav {
   font: 320px Arial;
 }
 
+#img_1_slower {
+  position: absolute;
+  width: 40vh;
+  transform: translateZ(-1px) translateX(-50px) translateY(100px) scale(1.5);
+}
+#img_1_faster {
+  position: absolute;
+  width: 40vh;
+  height: 60vh;
+  transform: translateZ(1px) translateX(350px) translateY(150px) scale(0.5);
+  background-color: red;
+}
 #section_1 {
   background-color: #88ff00;
+  text-align: right;
 }
 #section_2 {
   background-color: #00ff88;
 }
-#slower {
-  position: absolute;
-  transform: translateZ(-1px) scale(1.5);
-  color: yellow;
-  font-size: 36px;
-}
-#faster {
-  position: absolute;
-  transform: translateZ(1px) translateX(400px) scale(1.5);
-  color: red;
-  font-size: 36px;
-}
+
 #section_3 {
   background-color: #52e7ce;
 }
